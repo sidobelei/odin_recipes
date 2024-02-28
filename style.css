@@ -1,5 +1,5 @@
 body {
-    background-color: #E1CBA6;
+    background-color: #1B2934;
     color: hsl(32, 26%, 47%);
     font-family: Garamond, "Times New Roman", sans-serif;
 }
@@ -11,6 +11,8 @@ h1 {
 
 .content {
     background-color: white;
+    padding: 0px;
+    margin: 0 0;
 }
 
 .content,
@@ -20,4 +22,36 @@ h5 {
 
 .bold {
     font-weight: bold;
+}
+
+#index-container {
+    text-align: center;
+    height: 450px;
+}
+
+#spoons {
+    width: 400px;
+    height: auto;
+    margin-right: 0px;
+}
+
+.index {
+    display: inline-block;
+    box-sizing: border-box;
+    border: solid 10px hsl(32, 26%, 47%);
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    vertical-align: top;
+    
+}
+
+.index .content {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    padding-top: 50%;
 }
